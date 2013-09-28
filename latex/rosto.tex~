@@ -4,7 +4,7 @@
  \scalebox{0.35}{\includegraphics{figuras/logo}}
  \end{figure}
  \begin{center}
-   {\large CURSO DE TECNOLOGIA EM DESENVOLVIMENTO DE SOFTWARE} \\ [3.5cm]
+   {\large CURSO DE TECNOLOGIA EM DESENVOLVIMENTO DE SOFTWARE} \\ [5.5cm]
    {\large JOÃO FELIPE ROQUE MORAES} \\ [4cm]
    {\large APRESENTAÇÃO, ESTUDO E PROPOSTA DE USO DO \textit{HARDWARE RASPBERRY PI} EM PEQUENAS EMPRESAS } \\ [2cm]
    \hspace{.45\textwidth} % posicionando a minipage

@@ -4,7 +4,7 @@
     \setlength{\ABNTsignskip}{0.9cm}
     \begin{center}
         {\large JOÃO FELIPE ROQUE MORAES} \\ [4cm]
-        {\large APRESENTAÇÃO, ESTUDO E PROPOSTA DE USO DO \textit{HARDWARE RASPBERRY PI} EM PEQUENAS EMPRESAS } \\ [2cm]
+        {\large ESTUDO E PROPOSTA DE USO DE INTEGRAÇÃO CONTÍNUA NO PROCESSO DE DESENVOLVIMENTO DA BIBLIOTECA DIGITAL DA RENAPI}\\ [2cm]
         \hspace{.45\textwidth} % posicionando a minipage
         \begin{minipage}{0.5\textwidth}
         \begin{espacosimples}
@@ -12,9 +12,9 @@
         \end{espacosimples}
         \end{minipage}
     \end{center}
-    Aprovada em 04 de outubro de 2013 \\\\
+    Aprovada em 29 de junho de 2010 \\\\
     Banca avaliadora:
     \assinatura{Prof. Fernando Carvalho (Orientador) \\ Especialista em Produção e Sistemas / IFF Campus Campos \\ Instituto Federal de Educação, Ciência e Tecnologia Fluminense / Campus Bom Jesus}
-    \assinatura{Prof. Rogério Atem Carvalho \\ Doutor em Ciências de Engenharia / IFF Campus Campos \\ Instituto Federal de Educação, Ciência e Tecnologia Fluminense / Campus Campos Centro}
+    \assinatura{Prof. Rodrigo Soares Manhães \\ Mestre em Pesquisa Operacional e Inteligência Computacional / UCAM Campos \\ Universidade Estadual do Norte Fluminense / UENF}
     \assinatura{Prof. Fábio Duncan de Souza \\ Mestre em Pesquisa Operacional e Inteligência Computacional / UCAM Campos \\ Instituto Federal de Educação, Ciência e Tecnologia Fluminense / Campus Campos Centro}
 \end{folhadeaprovacao}
