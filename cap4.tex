@@ -2,7 +2,58 @@
 
 Neste capítulo serão apresentadas características técnicas do Raspberry Pi, que podem ser lidas a seguir.
 
-\section{Descrição técnica}
+\section{Raspberry Pi}
+
+\subsection{Definição}
+
+\textit{Raspberry Pi} é um computador do tamanho de um cartão de  rédito desenvolvido no Reino Unido pela Fundação \textit{Raspberry Pi} com a intenção de estimular o ensino de informática básica nas escolas. Ele se conecta à sua TV e a um teclado, e pode ser usado para muitas das coisas que o seu PC desktop faz, como processar textos, planihas e jogos, além de reproduzir vídeo de alta definição. Todo o hardware é integrado em uma única placa, e o projeto é baseado em um \textit{system on a chip} (SoC) Broadcom BCM2835, que inclui um processador ARM1176JZF-S de 700 MHz, GPUVideoCore IV, e 512 MB de memória RAM em sua última revisão. O projeto não inclui uma memória não-volátil - como um disco rígido - mas possui uma entrada de cartão SD para armazenamento de dados. A placa é adaptada para rodar sistemas operacionais baseados em Linux \cite{WIKIPEDIA2}.
+
+\subsection{História}
+
+A ideia de criar um computador pequeno e barato para crianças surgiu em 2006, quando Eben Buton e seus colegas da Universidade de Cambridge perceberam que os estudantes de hoje que querem estudar ciência da computação não têm as habilidades que eles tinham na década de 1990.
+
+Eles atribuem isso, entre outros fatores, à ascensão do computador pessoal (PC) e dos consoles de jogos que substituíram os microcomputadores que as pessoas da geração anterior aprendiam a programar. Desde que o computador tornou-se importante para todos os membros da família, o ato de deixar os membros mais jovens brincarem ou fazerem experimentos foi sendo cada vez mais desestimulado.
+Mas recentemente os processadores usados em telefones celulares e tablets tornaram-se mais baratos e mais poderosos, abrindo caminho para o lançamento do Raspeberry Pi no mundo das placas de computadores ultrabaratas e úteis.
+
+\subsection{Viabilidade no mercado brasileiro}
+
+Para se obter um Raspberry Pi no Brasil é preciso importá-lo. No site da farnellwark, empresa que importa e revende o equipamento no país do futebol, o valor da placa Raspberry Pi - Modelo B é R\$ 176,02. O preço apresentado anteriormente é um somatório do custo real da placa com despesas referentes à importação, sendo que o frete para a entrega do equipamento em sua residência ainda não está incluso. Para se ter uma noção do aumento no valor da compra gerado pela despesas com importação, foi pesquisado o preço em um site que vendesse a mesma placa sem tais custos. No site da adafruit, o preço encontrado foi de \$ 39,95, o equivalente a R\$ 88,61, de acordo com a cotação do dólar às 12h do dia 21 de setembro de 2013, evidenciando assim uma diferença de R\$ 87,49.
+
+\begin{table}[!htpb]
+ \centering
+    \begin{tabular}{|l|p{3cm}|c|} 
+    \hline
+        \textbf{Valor} & \textbf{Impostos} & \textbf{Valor Total} \\
+    \hline
+        R\$ 90,93 & R\$ 87,49 & R\$ 176,02 \\
+    \hline
+    \end{tabular}
+    \caption{Apresentação do valor do Raspberry Pi agregado com gastos de importação para o Brasil. O valor total não inclui o frete.}
+    \label{t_fixa}
+\end{table}
+
+O frete e o tempo de entrega do equipamento em residência varia de acordo com a localidade da mesma. Para uma entrega em Campos dos Goytacazes, o valor do frete cobrado foi de R\$ 32,20 e o tempo de 3 dias úteis.
+
+Em relação a empresas que oferecem suporte à placa no Brasil não foi encontrada nenhuma informação.
+
+\subsection{Comparativo de custos de \textit{hardware} semelhante}
+
+Para apresentar a diferença de custo entre o Raspberry Pi e um hardware semelhante, mais precisamente um computador desktop, foram escolhidas duas empresas para serem alvos da pesquisa de preço. A primeira será a Farnell Newark, empresa já apresentada na seção anterior e que fornecerá o valor do Raspberry Pi, e a segunda será a Americamas.com, empresa que informará o preço do PC desktop mais barato existente na loja. Em ambas as empresas tal pesquisa de preço foi realizada às 14:18 horas do dia 28 de setembro de 2013.
+
+O valor apresentado pela Farnell Newark para o Raspberry Pi foi de R\$ 176,02 mais despesas com frete, enquanto que a loja Americanas.com vende o pc desktop mais barato pelo preço de R\$ 719,00.
+
+Ao se analisar os valores apresentados no parágrafo anterior, é preciso entender que a comparação entre os equipamentos não acontece em torno da capacidade de seus componentes, tais como poder de processamento, quantidade de memória RAM, capacidade de disco rígido, e etc, pois se assim fosse o pc desktop desbancaria a nova tecnologia que está sendo apresentada. O objetivo do comparativo está em mostrar a capacidade que o Raspberry Pi tem de apresentar muitos dos recursos fornecidos por um pc desktop por um custo bem menor.
+
+\subsection{Sistemas computacionais que utilizam o \textit{Raspberry Pi}}
+
+Apesar de os idealizadores do Raspberry Pi o terem criado visando uma prática maior da programação entre jovens e crianças, o equipamento tem sido utilizado por pessoas do mundo inteiro a fim de alcançarem outros objetivos. Sendo assim, foram pesquisados projetos que apresentassem exemplos do uso do equipamento em sistemas computacionais, e o resultado é apresentado no parágrafos seguintes.
+
+Em um artigo escrito por \citeonline{PEDRO}, o Raspberry Pi é utilizado como um servidor de Virtual Private Network (VPN) ou Rede Privada Virtual. Após demonstrar passo a passo a instalação de alguns pacotes e realizar algumas configurações necessárias, o autor do artigo explica que ao se conectar a uma rede pública e necessitar da garantia que a sua conexão é segura, pode-se fazer uso do Raspberry Pi para que as conexões sejam cifradas, passando pelo seu mini PC.
+
+Segundo \citeonline{ZACH}, é possível fazer do Raspberry Pi um servidor web barato para realizar testes ou armazenar arquivos.
+Nota-se então que já se encontra exemplos de sistemas computacionais baseados no Raspberry Pi, o que multiplica as possíveis utilidades dessa nova tecnologia.
+
+\subsection{Descrição técnica}
 
 \begin{figure}[ht]
     \centering
@@ -53,7 +104,7 @@ A figura 4.1 representação a placa do computador Raspberry Pi contendo indica�
 
 \textbf{I. Entrada de energia.} Uma das primeiras coisas que você perceberá é que não há nenhum interruptor de alimentação no Raspberry Pi. Esse conector micro USB é usado para fornecer energia (essa não é uma porta USB adicional, é apenas para alimentação). A porta micro USB foi escolhida porque o conector é barato e fontes de alimentação USB são fáceis de encontrar.
 
-\section{Periféricos adequados}
+\subsection{Periféricos adequados}
 
 Após adquirir-se um pouco de conhecimento sobre os componentes da placa, faz-se necessário saber também sobre os periféricos adequados para utilizar com ela. A imagem abaixo mostra alguns dos quais iremos precisar para utilizar o Raspberry. É preciso tomar cuidado, pois existem peças que podem não funcionar corretamente quando instaladas na sua placa.
 
@@ -73,7 +124,7 @@ Após adquirir-se um pouco de conhecimento sobre os componentes da placa, faz-se
 
 \newpage
 
-\section{Outras características}
+\subsection{Outras características}
 
 Na tabela a seguir são apresentadas mais algumas características do Raspberry Pi.
 

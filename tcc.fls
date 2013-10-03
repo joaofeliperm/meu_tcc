@@ -1,4 +1,4 @@
-PWD /home/joao/git/tcc_latex/latex
+PWD /home/joao/git/meu_tcc
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
@@ -288,9 +288,6 @@ INPUT cap1.tex
 OUTPUT cap2.aux
 INPUT cap2.tex
 INPUT cap2.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
 OUTPUT cap3.aux
 INPUT cap3.tex
 INPUT cap3.tex
@@ -300,6 +297,9 @@ INPUT ./figuras/rede_thin_clients.jpg
 OUTPUT cap4.aux
 INPUT cap4.tex
 INPUT cap4.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT figuras/superior_inferior.png
 INPUT ./figuras/superior_inferior.png
 INPUT ./figuras/superior_inferior.png
